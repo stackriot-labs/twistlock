@@ -1,0 +1,30 @@
+{
+  "name": "devops",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "sh test/index.test.sh",
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=9",
+    "npm": ">=6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stackriot-labs/whitepapers.git"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/stackriot-labs/whitepapers/issues"
+  },
+  "homepage": "https://github.com/stackriot-labs/whitepapers#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "html": "^1.0.0"
+  }
+}
